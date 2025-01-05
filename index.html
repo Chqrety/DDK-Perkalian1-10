@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Perkalian 1-10</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <main>
+            <section class="header">
+                <p>Selamat Datang🥳</p>
+            </section>
+            <section class="request">
+                <p>silahkan pilih tabel perkalian yang mau ditampilkan</p>
+                <form action="">
+                    <div class="select-kali">
+                        <select name="awal" id="awal">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                        </select>
+                        <select name="akhir" id="akhir">
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="select-kali">
+                        <button class="reset" type="reset">Reset</button>
+                        <button class="lihat" type="button">Lihat</button>
+                    </div>
+                </form>
+            </section>
+            <section class="kali">
+                <p>Hasil Tabel Perkalian</p>
+                <div id="tabel-perkalian" class="tabel-perkalian"></div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
